@@ -4,13 +4,15 @@
 
 PHP code for connecting to Moadian Maliati Organization (Store Terminals and Taxpayer System).
 
+## Reference
+ This package forked from [sanp-market-pro](https://github.com/Snapp-Market-Pro/moadian)
 ## Disclaimer
 This software is provided as is without any warranty whatsoever, including accuracy and comprehensiveness. We are not associated with Moadian Maliati Organization and we have worked with the API just as simple clients so we are limited in the amount of support and help we can give regarding the functionality of the API. We have however personally used this package and have successfully submitted tens of thousands of invoices.
 
 ## Installation
 
 ```bash
-composer require snapp-market-pro/moadian
+composer require baradaran-co/moadian
 ```
 
 ## Usage

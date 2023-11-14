@@ -3,7 +3,6 @@
   "type": "library",
   "description": "PHP SDK for working with tp.tax.gov.ir (سامانه مودیان مالیاتی)",
   "license": "MIT",
-  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Baradaran\\Moadian\\": "src/"

@@ -179,6 +179,12 @@ class InvoiceHeaderDto extends PrimitiveDto
 
     private ?int $tocv;
 
+    /**
+     * Timestamp of Cottage Date
+     */
+    private ?int $cdcd;
+
+
     public function getTorv(): ?int
     {
         return $this->torv;
@@ -219,17 +225,15 @@ class InvoiceHeaderDto extends PrimitiveDto
         $this->cdcn = $cdcn;
     }
 
-    public function getCdcd(): ?string
+    public function getCdcd(): ?int
     {
         return $this->cdcd;
     }
 
-    public function setCdcd(?string $cdcd): void
+    public function setCdcd(?int $cdcd): void
     {
         $this->cdcd = $cdcd;
     }
-
-    private ?string $cdcd;
 
     /**
      * tax17

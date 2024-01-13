@@ -177,7 +177,7 @@ class InvoiceHeaderDto extends PrimitiveDto
      * Total Currency value of goods
      */
 
-    private ?int $tocv;
+    private ?float $tocv;
 
     /**
      * Timestamp of Cottage Date
@@ -195,12 +195,12 @@ class InvoiceHeaderDto extends PrimitiveDto
         $this->torv = $torv;
     }
 
-    public function getTocv(): ?int
+    public function getTocv(): ?float
     {
         return $this->tocv;
     }
 
-    public function setTocv(?int $tocv): void
+    public function setTocv(?float $tocv): void
     {
         $this->tocv = $tocv;
     }

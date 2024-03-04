@@ -102,7 +102,7 @@ class InvoiceHeaderDto extends PrimitiveDto
     /**
      * contract registration number
      */
-    private ?int $crn;
+    private ?string $crn;
 
     /**
      * billing ID
@@ -449,12 +449,12 @@ class InvoiceHeaderDto extends PrimitiveDto
         return $this;
     }
 
-    public function getCrn(): ?int
+    public function getCrn(): ?string
     {
         return $this->crn;
     }
 
-    public function setCrn(?int $crn): self
+    public function setCrn(?string $crn): self
     {
         $this->crn = $crn;
         return $this;
